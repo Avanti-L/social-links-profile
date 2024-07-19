@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+body {
+    font-family: "Inter", sans-serif;
+    background-color: hsl(0, 0%, 8%);
+}
+
+@media(min-width: 375px){
+    p {
+        font-size: 14px;
+        margin-bottom: 30px;
+    }
+    
+    .container {
+        width: 300px;
+        margin: 100px auto;
+        text-align: center;
+        border: none;
+        background-color: hsl(0, 0%, 12%);
+        color: hsl(0, 0%, 100%);
+        padding: 40px;
+        border-radius: 16px;
+    }
+    
+    button {
+        background-color: hsl(0, 0%, 20%);
+        color: hsl(0, 0%, 100%);
+        display: block;
+        margin-bottom: 15px;
+        border: none;
+        width: 100%;
+        padding: 12px;
+        border-radius: 10px;
+        font-size: 14px;
+    }
+    
+    button:hover {
+        cursor: pointer;
+        background-color: hsl(75, 94%, 57%);
+        color: hsl(0, 0%, 20%);
+    }
+    
+    .from {
+        color: hsl(75, 94%, 57%);
+    }
+    
+    .avatar {
+        border-radius: 50%;
+        width: 90px;
+        margin-bottom: 20px;
+    }
+    
+    .about {
+        margin-bottom: 30px;
+    }
+    
+    .name {
+        font-size: 25px;
+        margin: 0;
+    }
+    
+}
+
+@media(max-width: 1440px){
+    p {
+        font-size: 14px;
+        margin-bottom: 30px;
+    }
+    
+    .container {
+        width: 300px;
+        margin: 100px auto;
+        text-align: center;
+        border: none;
+        background-color: hsl(0, 0%, 12%);
+        color: hsl(0, 0%, 100%);
+        padding: 40px;
+        border-radius: 16px;
+    }
+    
+    button {
+        background-color: hsl(0, 0%, 20%);
+        color: hsl(0, 0%, 100%);
+        display: block;
+        margin-bottom: 15px;
+        border: none;
+        width: 100%;
+        padding: 12px;
+        border-radius: 10px;
+        font-size: 14px;
+    }
+    
+    button:hover {
+        cursor: pointer;
+        background-color: hsl(75, 94%, 57%);
+        color: hsl(0, 0%, 20%);
+    }
+    
+    .from {
+        color: hsl(75, 94%, 57%);
+    }
+    
+    .avatar {
+        border-radius: 50%;
+        width: 90px;
+        margin-bottom: 20px;
+    }
+    
+    .about {
+        margin-bottom: 30px;
+    }
+    
+    .name {
+        font-size: 25px;
+        margin: 0;
+    }
+    
+}
+
